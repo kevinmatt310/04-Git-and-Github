@@ -1,0 +1,14 @@
+1. git clean berfungsi menghapus untracked files dalam sebuah direktori kerja repositori
+2. -d flag berfungsi mengulang pengahapusan file kedalam untracked directories
+   -f flag berfungsi menghapus paksa sebuah file atau direktori
+3. git branch nama_brach 
+4. fast-foward merge memungkinkan menggabungkan branch langsung 
+   recursive adalah merge default yang mempunyai parent lain
+5. git checkout nama_branch
+6. git rm
+7. git branch -d nama_branch
+8. git diff berfungsi menampilkan perubahan file yang belum di-stage
+9. git reset nama_file
+10. merge conflict terjadi ketika dua branch mengubah region yang sama dari sebuah file dan kemudia digabungkan
+
+ 
