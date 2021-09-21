@@ -1,0 +1,14 @@
+1. https://drive.google.com/file/d/1hU_l6Gz8fqnoTV3hezlq_Cl1rlu08sIp/view?usp=sharing
+2. git clone https://github.com/kevinmatt310/tech4impact-students-bio
+3. git branch muhammad_kevin_matondang
+4. git checkout muhammad_kevin_matondang
+5. touch muhammadkevinmatondang.md
+6. echo Nama Lengkap: David Winalda
+Umur: 27
+Pesan yang ingin disampaikan: Semangat untuk kamu yang disana sedang berjuang
+7. git add muhammad_kevin_matondang
+8. git commit -m "Muhammad Kevin Matondang"
+9. git checkout master
+   git merge muhammad_kevin_matondang
+10. git push
+11. ?
