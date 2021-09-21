@@ -1,0 +1,21 @@
+mkdir muhammad-kevin-matondang
+touch README.md
+echo "Halo perkenalkan aku halaman utama" >> README.md
+git init .
+git commit -m -a "Inisialisasi Git Repository"
+git branch cv
+git checkout cv
+touch cv.txt
+echo "Ini adalah file CV" >> cv.txt
+git commit -m -a "Inisialisasi CV"
+echo "Tokopedia" >> cv.txt
+git commit -m
+echo "Gojek" >> cv.txt
+git commit -m
+echo "Shopee" >> cv.txt
+git commit -m
+git checkout muhammad-kevin-matondang
+echo "Halo perkenalkan aku halaman utama Ini adalah update pertama pada branch master"
+git commit -m -a "update master pertama"
+git checkout cv
+git merge muhammad-kevin-matondang
